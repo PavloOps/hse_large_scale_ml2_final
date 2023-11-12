@@ -1,0 +1,105 @@
+Case: 1
+Predicted: Negative
+Ground truth: Positive
+
+This powder tasted ok nothing special about it. It’s really too early to say if
+it actually does to me what it says it does as I only received 5 days worth of
+powder. My review can not be completed at this time but feel like I could be
+inclined to purchase.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 2
+Predicted: Negative
+Ground truth: Negative
+
+I’m disappointed. It does make my face look fresh, but doesn’t remove
+blackheads. I bought it because it states in the name that it clears pores. Not
+what I expected for this price. It is a nice texture though.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 3
+Predicted: Negative
+Ground truth: Positive
+
+I don’t understand how this product is so hyped. I love how it feels and the 40
+SPF. The big downfall is that I have very dry skin, I get eczema on my body and
+face. This sunscreen converted my face Into the most oilest land field out
+there. I started setting it with powder and within two hours I was so oily.
+Let’s not even talk about it under foundation. It became embarrassing when my
+family and friends started asking me if I was okay because I looked so “sweaty”.
+I would only use a pea size. Never again
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 4
+Predicted: Positive
+Ground truth: Positive
+
+I received a free sample of this and I fell in love with it! Goes on so
+smooth,very silky. Doesn’t take a lot to cover face either. Was able to use
+three times(sample) and it left my skin feeling lushous and plump. Will
+definitely be purchasing a full size!
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 5
+Predicted: Positive
+Ground truth: Positive
+
+I received this product complimentary from Influenster. I liked this product. It
+made my skin feel very soft and smooth. It feels a little balm-y before it
+dries, but once it does (and it dries very quick) it feels great. Expensive but
+worth the investment.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 6
+Predicted: Negative
+Ground truth: Positive
+
+I have so many acne marks on my forehead and I was really excited to try this
+product hoping it would make the texture of my skin better, but it didn’t work
+for me. it didn’t do anything at all and I used it as instructed.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 7
+Predicted: Positive
+Ground truth: Positive
+
+Best makeup remover EVER!! I got the sweet apple one and can not recommend it
+enough. This is the first makeup remover that actually gets rid of all my makeup
+and it is so easy to use. For the first time ever I don’t wake up with black
+stains under my eyes from leftover mascara, and the impact on my lashes from
+rubbing the makeup off is soooo much less than before. I would recommend rinsing
+your face with warm water once you are done and applying serum since it can feel
+like it leaves your face a little oily but it is purely mental I have realized.
+So if you are a freak like me about leaving anything on your face just rinse it.
+You won’t regret buying it.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 8
+Predicted: Negative
+Ground truth: Negative
+
+My blackheads do look smaller so the product does in fact work, i dont use it
+much and my blackheads dont seem to come as fast anymore so i like this. The
+packaging is cute and minimal so thats a plus. I wouldnt buy it again though.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 9
+Predicted: Negative
+Ground truth: Negative
+
+Tingled my skin quite a bit. After rinsing off my skin felt dry but moisturized
+and smooth. I didn’t really see or feel a difference in the texture or
+appearance of my skin though.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Case: 10
+Predicted: Positive
+Ground truth: Negative
+
+These are awesome! Not only is the color so much prettier than the solid gold,
+they really do immediately brighten. The foil does a good job of keeping in heat
+~ I love trying various eye masks and these are one of my favorites. Would
+definitely rebuy Baggage Claim (currently using Bliss holographic (amazing!!)
+and have ordered Erno Lazlo to try next)
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
