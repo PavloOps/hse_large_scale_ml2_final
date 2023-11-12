@@ -67,11 +67,12 @@ The model has high accuracy (around 95%). Learning was performed with Kaggle's G
 
 ### 2. Data set
 * The model was trained on a big amount beauty products' reviews from [Kaggle dataset](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews). Data was collected via DataScrapping from the [Sephora's official website](www.sephora.com) Initially, there were around 1M of marked reviews as positive or negative according to the option "I recommend it";
-* [Dataset](https://drive.google.com/drive/folders/1aOvmIq8wkfFavt2n6pCvQ4PN7Tl8OKXd?usp=sharing): To handle with an imbalanced target (16% of negative reviews and 84% of positive reviews), there was used an under-sampling technique. Finally, in total there are around 300K of reviews for training the model and 50/50 of negative and positive reviews. Check train/val/test split via next [IPYNB with EDA](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/blob/main/dataset/EDA.ipynb)
+* [Dataset](https://drive.google.com/drive/folders/1aOvmIq8wkfFavt2n6pCvQ4PN7Tl8OKXd?usp=sharing): To handle with an imbalanced target (16% of negative reviews and 84% of positive reviews), there was used an under-sampling technique. Finally, in total there are around 300K of reviews for training the model and 50/50 of negative and positive reviews. Check train/val/test split via next [IPYNB with EDA](https://github.com/PavloOps/lsml2/blob/main/dataset/EDA.ipynb)
 
 ### 3. Model training code
 #### 3.1. Jupyter Notebook
-* [IPYNB with training](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/blob/main/frontend/materials/NLP_SEPHORA_TRAINING.zip) can be also upload via UI after docker-compose up;
+* [IPYNB with training](https://github.com/PavloOps/lsml2/blob/main/frontend/materials/NLP_SEPHORA_TRAINING.zip) can be also upload via UI after docker-compose up;
+
 #### 3.2. MLFlow project
 * 🤦‍♀️🤗👄
 
@@ -106,7 +107,7 @@ The abstract from the [paper](https://medium.com/huggingface/distilbert-8cf33804
 > As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging. In this work, we propose a method to pre-train a smaller general-purpose language representation model, called DistilBERT, which can then be fine-tuned with good performances on a wide range of tasks like its larger counterparts. While most prior work investigated the use of distillation for building task-specific models, we leverage knowledge distillation during the pre-training phase and show that it is possible to reduce the size of a BERT model by 40%, while retaining 97% of its language understanding capabilities and being 60% faster. To leverage the inductive biases learned by larger models during pre-training, we introduce a triple loss combining language modeling, distillation and cosine-distance losses. Our smaller, faster and lighter model is cheaper to pre-train and we demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device study.
 * check RUN of the model on [my project on wandb.ai](https://wandb.ai/numme/huggingface/runs/ffsgnhuh/overview?workspace=user-numpyme);
 * model was trained up to 5 hours (the table above, the row with a progress-bar);
-* because of the DistillBert was used, the final size of [pytorch files](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/tree/main/backend/model) are 270 MB;
+* because of the DistillBert was used, the final size of [pytorch files](https://github.com/PavloOps/lsml2/releases/tag/v1.0.0) are 270 MB;
 * The achieved result of 95% accuracy is comparable to the [DistillBert baseline](https://neuralmagic.com/blog/bert-large-prune-once-for-distilbert-inference-performance/)
 
 ### Criteria
