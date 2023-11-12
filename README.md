@@ -102,7 +102,7 @@ Backend architecture was implemented via Flask framework. It recieve user's text
 
 **For Linux OS**
 
-    curl -X POST http://localhost:5000/predict -d "{\"text\":\"This is a good product\"}"
+    curl -X POST http://localhost:5000/predict -d '{"text":"This is a good product"}'
 
 #### 4.4. Model
 The abstract from the [paper](https://medium.com/huggingface/distilbert-8cf3380435b5) is the following:
