@@ -35,11 +35,11 @@ Let's create two Docker containers which have everything needed to run applicati
 
 **Step 1**: Create new folder in your local host and make git clone:
 
-    git clone https://github.com/PavloOps/PavloOps-lsml2_Pavlova.git
+    git clone https://github.com/PavloOps/lsml2.git
 
 **Step 2**: Set the PavloOps-lsml2_Pavlova folder in your folder from Step 1 as current working directory (here is example for Windows OS, please, use the cwd installation command appropriate for your OS):
 
-    cd .\PavloOps-lsml2_Pavlova\
+    cd .\lsml2\
 
 **Step 3**: Next command aggregates the output of each container:
 
