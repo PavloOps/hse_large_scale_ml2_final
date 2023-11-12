@@ -96,8 +96,13 @@ Images' sizes:
 
 Backend architecture was implemented via Flask framework. It recieve user's text from UI, make prediction (negative or positive) via our DistillBert which was adopted to our downstream task and returns it back to UI. 
 
-<img src="pics/flask_api.png" width="700"/>
+**For Windows OS**
 
+    curl -X POST http://localhost:5000/predict -d "{\"text\":\"This is a good product\"}"
+
+**For Linux OS**
+
+    curl -X POST http://localhost:5000/predict -d "{\"text\":\"This is a good product\"}"
 
 #### 4.4. Model
 The abstract from the [paper](https://medium.com/huggingface/distilbert-8cf3380435b5) is the following:
