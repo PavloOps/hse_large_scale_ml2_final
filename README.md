@@ -23,6 +23,7 @@
 │ │ ├─📄 NLP_SEPHORA_TRAINING.zip<br>
 │ │ └─📄 sephora_label.png<br>
 │ └─📄 requirements.txt<br>
+├─📁 pics/<br>
 └─📄 README.md<br>
 
 #### 1.1. Design document, architecture
