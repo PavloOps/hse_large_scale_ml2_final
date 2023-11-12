@@ -5,12 +5,10 @@
 
 ### 1. Project documentation
 
-📁 sephora_application/<br>
+📁 lsml2/<br>
 ├─📁 backend/<br>
 │ ├─📄 backend_api.py<br>
 │ ├─📄 Dockerfile<br>
-│ ├─📁 model/<br>
-│ │ └─📄 config.json<br>
 │ └─📄 requirements.txt<br>
 ├─📄 docker-compose.yaml<br>
 ├─📁 dataset/<br>
