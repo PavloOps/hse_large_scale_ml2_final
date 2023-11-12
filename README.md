@@ -53,7 +53,7 @@ Let's create two Docker containers which have everything needed to run applicati
 
     http://localhost:8501/ 
 
-**Step 6**: After starting the User Interface, there will be default text suggested. And let's try some case, for example, next one (from [samples of text](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/blob/main/dataset/samples_for_testing.txt)):
+**Step 6**: After starting the User Interface, there will be default text suggested. And let's try some case, for example, next one (from [samples of text](https://github.com/PavloOps/lsml2/blob/main/dataset/samples_for_testing.txt)):
 
     I’m disappointed. It does make my face look fresh, but doesn’t remove
     blackheads. I bought it because it states in the name that it clears pores. Not
