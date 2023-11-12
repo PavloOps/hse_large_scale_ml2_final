@@ -10,11 +10,12 @@
 │ ├─📄 backend_api.py<br>
 │ ├─📄 Dockerfile<br>
 │ ├─📁 model/<br>
-│ │ ├─📄 config.json<br>
-│ │ ├─📄 pytorch_model.bin   
-│ │ └─📄 training_args.bin<br>
+│ │ └─📄 config.json<br>
 │ └─📄 requirements.txt<br>
 ├─📄 docker-compose.yaml<br>
+├─📁 dataset/<br>
+│ ├─📄 EDA.ipynb<br>
+│ ├─📄 samples_for_testing.txt<br>
 ├─📁 frontend/<br>
 │ ├─📄 Dockerfile<br>
 │ ├─📄 frontend.py<br>
