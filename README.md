@@ -67,7 +67,7 @@ The model has high accuracy (around 95%). Learning was performed with Kaggle's G
 
 ### 2. Data set
 * The model was trained on a big amount beauty products' reviews from [Kaggle dataset](https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews). Data was collected via DataScrapping from the [Sephora's official website](www.sephora.com) Initially, there were around 1M of marked reviews as positive or negative according to the option "I recommend it";
-* [Dataset](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/tree/main/dataset): To handle with an imbalanced target (16% of negative reviews and 84% of positive reviews), there was used an under-sampling technique. Finally, in total there are around 300K of reviews for training the model and 50/50 of negative and positive reviews. Check train/val/test split via next [IPYNB with EDA](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/blob/main/dataset/EDA.ipynb)
+* [Dataset](https://drive.google.com/drive/folders/1aOvmIq8wkfFavt2n6pCvQ4PN7Tl8OKXd?usp=sharing): To handle with an imbalanced target (16% of negative reviews and 84% of positive reviews), there was used an under-sampling technique. Finally, in total there are around 300K of reviews for training the model and 50/50 of negative and positive reviews. Check train/val/test split via next [IPYNB with EDA](https://github.com/PavloOps/PavloOps-lsml2_Pavlova/blob/main/dataset/EDA.ipynb)
 
 ### 3. Model training code
 #### 3.1. Jupyter Notebook
