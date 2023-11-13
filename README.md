@@ -35,7 +35,7 @@ Let's create two Docker containers which have everything needed to run applicati
 
     git clone https://github.com/PavloOps/lsml2.git
 
-**Step 2**: Set the PavloOps-lsml2_Pavlova folder in your folder from Step 1 as current working directory (here is example for Windows OS, please, use the cwd installation command appropriate for your OS):
+**Step 2**: Set the lsml2 folder in your folder from Step 1 as current working directory (here is example for Windows OS, please, use the cwd installation command appropriate for your OS):
 
     cd .\lsml2\
 
