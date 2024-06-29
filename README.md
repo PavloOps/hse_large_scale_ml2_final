@@ -1,7 +1,6 @@
 [![python](https://img.shields.io/badge/Python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![pytorch](https://img.shields.io/badge/PyTorch-2.0.0-EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org) [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.1-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white)](https://streamlit.io) <br>[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/en/3.0.x/)
 
-# LSML2 Final Project 
-## «Sentiment Analysis for Beauty products of SEPHORA»
+# «Sentiment Analysis for Beauty products of SEPHORA»
 
 ### 1. Project documentation
 
@@ -71,9 +70,6 @@ The model has high accuracy (around 95%). Learning was performed with Kaggle's G
 #### 3.1. Jupyter Notebook
 * [IPYNB with training](https://github.com/PavloOps/lsml2/blob/main/frontend/materials/NLP_SEPHORA_TRAINING.zip) can be also upload via UI after docker-compose up;
 
-#### 3.2. MLFlow project
-* 🤦‍♀️🤗👄
-
 ### 4. Service deployment and usage instructions
 #### 4.1. Docker-compose file
 
@@ -112,27 +108,3 @@ The abstract from the [paper](https://medium.com/huggingface/distilbert-8cf33804
 * model was trained up to 5 hours (the table above, the row with a progress-bar);
 * because of the DistillBert was used, the final size of [pytorch files](https://github.com/PavloOps/lsml2/releases/tag/v1.0.0) are 270 MB;
 * The achieved result of 95% accuracy is comparable to the [DistillBert baseline](https://neuralmagic.com/blog/bert-large-prune-once-for-distilbert-inference-performance/)
-
-### Criteria
-
-* 1.5 points – data collection and model training. Points could be taken away for:
-  - improper use of data
-  - incorrect train/test/va split
-  - little data
-  - poor model quality evaluation
-  - no comparison to baseline
-  - no estimate of model runtime and size
-* 1.5 points – service implementation. Criteria:
-  - Justification of architecture selection based on evaluation of:
-    - the service
-    - possible RPS (requests per second)
-    - models used
-    - implementation of backend architecture
-    - implementation of some interface (API or UI)
-    - evaluation of service quality, operation/response time
-* 1 point – answers to additional questions on the implementation
-
-
-You are allowed to create any kind service, as long as there is a clear objective and solution
-
-Total: 4 points
